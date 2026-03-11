@@ -12,6 +12,8 @@ Security-Enhanced Linux (SELinux) is a Linux kernel security module providing Ma
    ```
    sudo dnf install selinux-policy selinux-policy-targeted policycoreutils policycoreutils-python-utils -y
    ```
+
+   DNF -> Danified YUM -> Offers better performance and efficiency compared to YUM
 2. Verify whether the SELinux is installed or not using RPM command
 3. Open editor from terminal for the location `/etc/selinux/config` with sudo permissions
 4. Update the SELINUX to `disabled` from `enforcing`
