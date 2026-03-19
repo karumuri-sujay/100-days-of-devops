@@ -60,3 +60,7 @@ sudo chmod -R u+rX /opt/tomcat
   ```
 * Start the tomcat with the command `sudo -u tomcat /opt/tomcat/bin/startup.sh`
 * Verify whether the port is opened or not using the command `curl http://stapp03:8087`
+
+
+####References
+https://github.com/kodekloudhub/100-days-of-devops/blob/main/tasks/week-02/day-11.md
